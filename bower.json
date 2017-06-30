@@ -1,0 +1,23 @@
+{
+  "name": "batch-app",
+  "homepage": "https://github.com/knallathambi/spring-scheduler",
+  "authors": [
+    "Karthikeyan Nallathambi <karthikeyan.nallathambi@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "sockjs-client": "^1.1.4",
+    "stomp-websocket": "^2.3.4"
+  }
+}

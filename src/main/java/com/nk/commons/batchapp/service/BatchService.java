@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class BatchService {
 	
-	@Scheduled(fixedDelay=5000)
+	//@Scheduled(fixedDelay=5000)
 	public void scheduledTask(){
 		System.out.println("Scheduled Task");
 	}
